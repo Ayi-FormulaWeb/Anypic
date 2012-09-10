@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B3691A15FDE67E00D6F163 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B3691915FDE67E00D6F163 /* UIKit.framework */; };
+		19B3691C15FDE67E00D6F163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B3691B15FDE67E00D6F163 /* Foundation.framework */; };
+		19B3691E15FDE67E00D6F163 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B3691D15FDE67E00D6F163 /* CoreGraphics.framework */; };
+		19B3692415FDE67E00D6F163 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19B3692215FDE67E00D6F163 /* InfoPlist.strings */; };
+		19B3692615FDE67E00D6F163 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B3692515FDE67E00D6F163 /* main.m */; };
+		19B3692A15FDE67E00D6F163 /* anypicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B3692915FDE67E00D6F163 /* anypicAppDelegate.m */; };
+		19B3692D15FDE67E00D6F163 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B3692B15FDE67E00D6F163 /* MainStoryboard.storyboard */; };
+		19B3693015FDE67E00D6F163 /* anypicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B3692F15FDE67E00D6F163 /* anypicViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19B3691515FDE67E00D6F163 /* anypic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anypic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B3691915FDE67E00D6F163 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19B3691B15FDE67E00D6F163 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19B3691D15FDE67E00D6F163 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19B3692115FDE67E00D6F163 /* anypic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "anypic-Info.plist"; sourceTree = "<group>"; };
+		19B3692315FDE67E00D6F163 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19B3692515FDE67E00D6F163 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19B3692715FDE67E00D6F163 /* anypic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "anypic-Prefix.pch"; sourceTree = "<group>"; };
+		19B3692815FDE67E00D6F163 /* anypicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anypicAppDelegate.h; sourceTree = "<group>"; };
+		19B3692915FDE67E00D6F163 /* anypicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = anypicAppDelegate.m; sourceTree = "<group>"; };
+		19B3692C15FDE67E00D6F163 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		19B3692E15FDE67E00D6F163 /* anypicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anypicViewController.h; sourceTree = "<group>"; };
+		19B3692F15FDE67E00D6F163 /* anypicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = anypicViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B3691215FDE67E00D6F163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B3691A15FDE67E00D6F163 /* UIKit.framework in Frameworks */,
+				19B3691C15FDE67E00D6F163 /* Foundation.framework in Frameworks */,
+				19B3691E15FDE67E00D6F163 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B3690A15FDE67E00D6F163 = {
+			isa = PBXGroup;
+			children = (
+				19B3691F15FDE67E00D6F163 /* anypic */,
+				19B3691815FDE67E00D6F163 /* Frameworks */,
+				19B3691615FDE67E00D6F163 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B3691615FDE67E00D6F163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B3691515FDE67E00D6F163 /* anypic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B3691815FDE67E00D6F163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B3691915FDE67E00D6F163 /* UIKit.framework */,
+				19B3691B15FDE67E00D6F163 /* Foundation.framework */,
+				19B3691D15FDE67E00D6F163 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19B3691F15FDE67E00D6F163 /* anypic */ = {
+			isa = PBXGroup;
+			children = (
+				19B3692815FDE67E00D6F163 /* anypicAppDelegate.h */,
+				19B3692915FDE67E00D6F163 /* anypicAppDelegate.m */,
+				19B3692B15FDE67E00D6F163 /* MainStoryboard.storyboard */,
+				19B3692E15FDE67E00D6F163 /* anypicViewController.h */,
+				19B3692F15FDE67E00D6F163 /* anypicViewController.m */,
+				19B3692015FDE67E00D6F163 /* Supporting Files */,
+			);
+			path = anypic;
+			sourceTree = "<group>";
+		};
+		19B3692015FDE67E00D6F163 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B3692115FDE67E00D6F163 /* anypic-Info.plist */,
+				19B3692215FDE67E00D6F163 /* InfoPlist.strings */,
+				19B3692515FDE67E00D6F163 /* main.m */,
+				19B3692715FDE67E00D6F163 /* anypic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B3691415FDE67E00D6F163 /* anypic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B3693315FDE67E00D6F163 /* Build configuration list for PBXNativeTarget "anypic" */;
+			buildPhases = (
+				19B3691115FDE67E00D6F163 /* Sources */,
+				19B3691215FDE67E00D6F163 /* Frameworks */,
+				19B3691315FDE67E00D6F163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = anypic;
+			productName = anypic;
+			productReference = 19B3691515FDE67E00D6F163 /* anypic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B3690C15FDE67E00D6F163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = anypic;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ayi Chen";
+			};
+			buildConfigurationList = 19B3690F15FDE67E00D6F163 /* Build configuration list for PBXProject "anypic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19B3690A15FDE67E00D6F163;
+			productRefGroup = 19B3691615FDE67E00D6F163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B3691415FDE67E00D6F163 /* anypic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B3691315FDE67E00D6F163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B3692415FDE67E00D6F163 /* InfoPlist.strings in Resources */,
+				19B3692D15FDE67E00D6F163 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B3691115FDE67E00D6F163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B3692615FDE67E00D6F163 /* main.m in Sources */,
+				19B3692A15FDE67E00D6F163 /* anypicAppDelegate.m in Sources */,
+				19B3693015FDE67E00D6F163 /* anypicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19B3692215FDE67E00D6F163 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B3692315FDE67E00D6F163 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19B3692B15FDE67E00D6F163 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B3692C15FDE67E00D6F163 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B3693115FDE67E00D6F163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19B3693215FDE67E00D6F163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B3693415FDE67E00D6F163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "anypic/anypic-Prefix.pch";
+				INFOPLIST_FILE = "anypic/anypic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19B3693515FDE67E00D6F163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "anypic/anypic-Prefix.pch";
+				INFOPLIST_FILE = "anypic/anypic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B3690F15FDE67E00D6F163 /* Build configuration list for PBXProject "anypic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B3693115FDE67E00D6F163 /* Debug */,
+				19B3693215FDE67E00D6F163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B3693315FDE67E00D6F163 /* Build configuration list for PBXNativeTarget "anypic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B3693415FDE67E00D6F163 /* Debug */,
+				19B3693515FDE67E00D6F163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B3690C15FDE67E00D6F163 /* Project object */;
+}
